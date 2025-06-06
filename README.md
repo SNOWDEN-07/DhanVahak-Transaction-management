@@ -26,10 +26,6 @@
 
 ---
 
-## 📸 Screenshots
-
-![Screenshot1](https://via.placeholder.com/600x300.png?text=Add+Transaction+Form)
-![Screenshot2](https://via.placeholder.com/600x300.png?text=Transaction+Table+UI)
 
 ---
 
