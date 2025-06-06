@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhan Vahak - Transaction Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>💰 Dhan Vahak</h1>
+      <p>Your Personal Transaction Manager</p>
+    </header>
+
+    <section class="balance">
+      <h2>Total Balance: ₹<span id="balance">0</span></h2>
+    </section>
+
+    <section class="form-section">
+      <h3>Add Transaction</h3>
+      <form id="transaction-form">
+        <input type="text" id="desc" placeholder="Description" required />
+        <input type="number" id="amount" placeholder="Amount (₹)" required />
+        <select id="type">
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="history">
+      <h3>Transaction History</h3>
+      <table id="transaction-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Description</th>
+            <th>Amount (₹)</th>
+            <th>Type</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
