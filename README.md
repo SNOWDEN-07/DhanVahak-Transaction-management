@@ -33,5 +33,5 @@ Dhan Vahak (धन वाहक), meaning *"Money Carrier"*, is a simple, respon
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/dhan-vahak.git
+   git clone https://github.com/SNOWDEN_07/dhan-vahak.git
    cd dhan-vahak
